@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet/external.css">
+    <style>
+        input, label {
+            display: block;
+        }
+        
+        input[type="checkbox"], input[type="radio"]{
+            display: inline;
+        }
+        input[type="text"], input[type="password"], input[type="email"]{
+            border: 1px solid black;
+            border-radius: 40px;
+            height: 30px;
+            width: 300px;
+            font-size: 20px;
+            padding: 10px;
+        }
+        input[type="submit"]{
+            height: 50px;
+            width: 50px;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+        
+
+    </style>
+</head>
+<body style="background-color:wheat;"><center>
+    <img src="assets/images/R.png" height="250px" width="250px">
+    <form>
+        <label for="">First Name</label>  
+        <input type="text">  
+        <label for="">Last Name</label>  
+        <input type="text">  
+        <label for="">Gmail</label>  
+        <input type="email">  
+        <label for="">Password</label>  
+        <input type="password"> 
+        <label for="">Status</label> 
+        <input type="checkbox"> Married
+        <input type="checkbox"> Single
+        <label for="">Gender</label>
+        <input type="radio" name="Gender"> Male 
+        <input type="radio" name="Gender"> Female <br>
+
+        <textarea rows="5" cols="50"></textarea>
+        <input type="submit" value="save">
+    </form></center>
+</body>
+</html>
